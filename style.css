@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+    /* height: 100%; */
+}
+
+body {
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+.attribution {
+    font-size: 1.1 rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row;
+}
+
+.init-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-container {
+    color: white;
+}
+
+
+/* .right-container {} */
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signin-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
