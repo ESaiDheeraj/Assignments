@@ -1,0 +1,339 @@
+@font-face{
+    font-family: poppins;
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: OpenSans;
+    src: url("./fonts/Open_Sans/OpenSans-Regular.tff");
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: auto;
+}
+*{
+    font-family: OpenSans;
+}
+
+h2,button{
+    font-family: Poppins;
+    font-weight: bold;
+}
+p{
+    font-weight: lighter;
+    /* font-size: 14px; */
+}
+.outmostContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(193, 100%, 96%);
+    /* padding: 2% 2%; */
+}
+.SpecialContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url("images/bg-hero-desktop.svg");
+}
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1% 1%;
+}
+.icon img{
+    width: 65%;
+}
+.tryIt{
+    width: 10%;
+}
+.tryIt button{
+    width: 100%;
+    padding: 5%;
+    border-radius: 25px;
+    background-color: white;
+    border: 0.8px solid transparent;
+    box-shadow: 1px 1px 7px hsl(193, 95%, 20%);         
+    /*border, box-shadow are new things for me :P */
+}
+.tryIt button:hover{
+    cursor: pointer;
+}
+.introContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 2%;
+    /* padding: 3% 3%; causing error */
+    /* border: 0.8px solid transparent; */
+    /* box-shadow: 1px 1px 7px hsl(193, 95%, 20%); */
+}
+.text1{
+    width: 40%;
+    margin: 7%;
+    margin-left: 0;
+    margin-right: 15%;
+}
+.text1 h2{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Poppins;
+}
+.text1 p{
+    font-size: 18px;
+    font-family: Poppins;
+}
+#getStartforFree{
+    margin: 2%;
+    width: 40%;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 30px;
+    padding: 3% 3%;
+    border: none;
+}
+#getStartforFree:hover{
+    cursor: pointer;
+}
+.picture1 img{
+    width: 80%;
+}
+
+.secondSpecialContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+.secondContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px hsl(194, 15%, 27%);
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+.secondContainer:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+.text2{
+    color: hsl(208, 11%, 55%);
+    width: 40%;
+}
+.text2 h2{
+    color: black;
+    font-size: xx-large;
+}
+.text2 p{
+    font-size: large;
+}
+.picture2{
+    width: 40%;
+}
+.picture2 img{
+    width: 100%;
+}
+.community{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    z-index: 2;
+}
+.incommunity{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: white;
+    border-radius: 8px;
+    border: 0.8px solid transparent;
+    box-shadow: 1px 1px 7px hsl(194, 15%, 27%);
+    padding: 2%;
+}
+#getStartedforFree2{
+    margin: 2%;
+    width: 40%;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 30px;
+    /* padding: 3% 3%; */
+    border: none;
+    font-size: 25px;
+}
+#getStartedforFree2:hover{
+    cursor: pointer;
+}
+.ReachOutToUs{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192,100%,9%);
+    color: white;
+    font-size: 10px;
+    padding: 3%;
+    padding-top: 110px;
+    position: relative;
+    top: -50px;
+}
+.infoFooter{
+    display: flex;
+    padding: 1% 2%;
+}
+.contactInfo{
+    width: 40%;
+}
+.same{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.same2{
+    margin-top: 5%;
+    width: 5%;
+}
+.same2 img{
+    color: white;
+}
+.same3{
+    width: 55%;
+    margin: 2%;
+    font-size: 15px;
+}
+.aboutUs{
+    width: 25%;
+    font-size: 18px;
+}
+.contactUs{
+    width: 25%;
+    font-size: 18px;
+}
+.socialMedia{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.cprText{
+    margin: 8%;
+    font-size: small;
+}
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 5%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 5%;
+}
+.fa-instagram{
+    background-color: #3B5998;
+    color: white;
+    width: 5%;
+}
+
+@media only screen and (max-width: 375px){
+    .SpecialContainer{
+        background-image: url("images/bg-hero-mobile.svg");
+    }
+    .icon img{
+        width: 40%;
+    }
+    .tryIt{
+        width: 40%;
+    }
+    .introContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        padding: 2%;
+        text-align: center;
+    }
+    #getStartforFree{
+        width: 65%;
+    }
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 6%;
+    }
+    .secondContainer:nth-of-type(even) {
+        flex-direction: column-reverse;
+    }
+    .secondContainer div{
+        width: 90%;
+        text-align: center;
+    }
+    .incommunity{
+        width: 90%;
+        text-align: center;
+        padding: 3%;
+    }
+    .incommunity h2{
+        font-size: 1.5em;
+        margin-bottom: 8%;
+    }
+    .ReachOutToUs{
+        display: flex;
+        flex-direction: column;
+    }
+    .infoFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactInfo{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .aboutUs{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .contactUs{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .socialMedia{
+        width: 100%;
+        margin-bottom: 3%;
+        display: flex;
+        text-align: center;
+    }
+    .same{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .same2{
+        width: 20%;
+    }
+}
